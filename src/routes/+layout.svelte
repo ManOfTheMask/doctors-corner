@@ -3,7 +3,7 @@
 	let { children } = $props();
 </script>
 
-<div class="navbar bg-base-100">
+<div class="navbar bg-base-300">
 	<div class="flex-1">
 	<a href="/" class="btn btn-ghost text-xl">The Doctor's Corner</a>
 	</div>
@@ -13,7 +13,7 @@
 			<li>
 				<details>
 					<summary>Menu</summary>
-						<ul class="bg-base-100 rounded-t-none p-2">
+						<ul class="bg-base-300 rounded-t-none p-2">
 							<li><a href="/about">About</a></li>
 							<li><a>Blog</a></li>
 						</ul>
@@ -25,7 +25,7 @@
 
 {@render children()}
 
-<footer class="bg-zinc-800 text-white p-4 fixed w-full bottom-0 flex justify-center">
+<footer class="bg-base-300 p-4 fixed w-full bottom-0 flex justify-center">
 	<div class="container mr-1 w-fit ">
 		<p class="text-center">The Doctor's Corner</p>
 	</div>
