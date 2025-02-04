@@ -3,14 +3,25 @@
 	let { children } = $props();
 </script>
 
-<nav class="bg-zinc-800 text-white p-4">
-	<div class="container mr-1 w-fit flex justify-between items-center">
-	<ul class="flex space-x-4 justify-self-end">
-	    <li><a href="/" class="hover:underline">Home</a></li>
-	    <li><a href="/about" class="hover:underline">About</a></li>
-	</ul>
+<div class="navbar bg-base-100">
+	<div class="flex-1">
+	<a href="/" class="btn btn-ghost text-xl">The Doctor's Corner</a>
 	</div>
-</nav>
+	<div class="flex-none">
+		<ul class="menu menu-horizontal px-1">
+			<!--Can insert buttons here outside the menu-->
+			<li>
+				<details>
+					<summary>Menu</summary>
+						<ul class="bg-base-100 rounded-t-none p-2">
+							<li><a href="/about">About</a></li>
+							<li><a>Blog</a></li>
+						</ul>
+				</details>
+			</li>
+		</ul>
+	</div>
+</div>
 
 {@render children()}
 
