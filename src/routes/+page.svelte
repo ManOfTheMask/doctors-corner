@@ -2,7 +2,7 @@
   <title>The Doctor's Corner</title>
 </svelte:head>
 
-<div class="container m-auto bg-base-100">
+<div class="bg-base-100">
     <header class="bg-base-200 py-8 px-0 text-center font-bold">
         <h1 class="text-xl">Welcome to The Doctor's Corner</h1>
     </header>

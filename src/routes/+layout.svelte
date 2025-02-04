@@ -27,6 +27,6 @@
 
 <footer class="bg-base-300 p-4 fixed w-full bottom-0 flex justify-center">
 	<div class="container mr-1 w-fit ">
-		<p class="text-center">The Doctor's Corner</p>
+		<p class="text-center">The Doctor's Corner since 2025</p>
 	</div>
 </footer>
