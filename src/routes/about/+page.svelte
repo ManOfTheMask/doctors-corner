@@ -4,10 +4,10 @@
 
 <div class="container m-auto">
     <header class="bg-zinc-800 text-white py-8 px-0 text-center font-bold">
-        <h1 class="text-xl">Welcome to The Doctor's Corner</h1>
+        <h1 class="text-xl">About This Site</h1>
       </header>
     <div class="text-center">
-        <h1 class="text-xl">Coming Soon</h1>
+        <h1 class="text-xl">Coming Soon As Well</h1>
         <h3 class="text-lg">This site is under construction</h3>
         <p>This is my web playground</p>
     </div>
