@@ -4,6 +4,12 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   server: {
     allowedHosts: ["voidtek.dev", "localhost"]
-  }
-	plugins: [sveltekit()]
+  },
+  preview: {
+	host:"0.0.0.0",
+        port: 4173
+  },
+
+  plugins: [sveltekit()]
+
 });
