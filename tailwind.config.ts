@@ -12,5 +12,10 @@ export default {
 		extend: {}
 	},
 
+	daisyui: {
+		themes: ['light', 'dark', 'retro', 'cyberpunk', 'valentine', 'aqua'],
+	},
+	
+
 	plugins: [typography, forms, containerQueries, daisyui,]
 } satisfies Config;
